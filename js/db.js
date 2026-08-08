@@ -8,7 +8,24 @@ const DB_KEY = 'turkce_progress_v1';
 function loadAll() {
   try {
     const raw = localStorage.getItem(DB_KEY);
-    if (raw) return JSON.parse(raw);
+    if (raw) {
+      const data = JSON.parse(raw);
+      // Migration for old keys that lacked level (assume A1)
+      if (data.vocabProgress) {
+        let migrated = false;
+        for (const key in data.vocabProgress) {
+          if (key.startsWith('unit-')) { // old format: unit-01-1
+            data.vocabProgress['A1-' + key] = data.vocabProgress[key];
+            delete data.vocabProgress[key];
+            migrated = true;
+          }
+        }
+        if (migrated) {
+          localStorage.setItem(DB_KEY, JSON.stringify(data));
+        }
+      }
+      return data;
+    }
   } catch (_) {}
   return {};
 }
@@ -67,9 +84,9 @@ export function saveVocabProgress(vp) {
   saveAll(d);
 }
 
-export function getItemProgress(unitId, itemNumber) {
+export function getItemProgress(level, unitId, itemNumber) {
   const vp = getVocabProgress();
-  const key = `${unitId}-${itemNumber}`;
+  const key = `${level}-${unitId}-${itemNumber}`;
   return vp[key] || {
     key,
     status:        'new',   // new | learning | familiar | strong | mastered
@@ -81,9 +98,9 @@ export function getItemProgress(unitId, itemNumber) {
   };
 }
 
-export function saveItemProgress(unitId, itemNumber, progress) {
+export function saveItemProgress(level, unitId, itemNumber, progress) {
   const vp = getVocabProgress();
-  const key = `${unitId}-${itemNumber}`;
+  const key = `${level}-${unitId}-${itemNumber}`;
   vp[key] = { ...progress, key };
   saveVocabProgress(vp);
 }
@@ -95,7 +112,7 @@ export function getProgressSummary(vocab) {
   let newCount = 0, learning = 0, familiar = 0, strong = 0, mastered = 0;
 
   for (const item of vocab) {
-    const key = `${item.unitId}-${item.itemNumber}`;
+    const key = `${item.level}-${item.unitId}-${item.itemNumber}`;
     const p = vp[key];
     if (!p || p.status === 'new') newCount++;
     else if (p.status === 'learning') learning++;
@@ -111,7 +128,7 @@ export function getDueForReview(vocab) {
   const vp = getVocabProgress();
   const now = Date.now();
   return vocab.filter(item => {
-    const key = `${item.unitId}-${item.itemNumber}`;
+    const key = `${item.level}-${item.unitId}-${item.itemNumber}`;
     const p = vp[key];
     if (!p || p.status === 'new') return false;
     if (!p.nextReviewAt) return true;

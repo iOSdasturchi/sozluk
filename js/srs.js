@@ -9,7 +9,7 @@ import { getItemProgress, saveItemProgress } from './db.js';
 const STATUS_ORDER = ['new', 'learning', 'familiar', 'strong', 'mastered'];
 
 export function recordAnswer(item, correct) {
-  const progress = getItemProgress(item.unitId, item.itemNumber);
+  const progress = getItemProgress(item.level, item.unitId, item.itemNumber);
 
   if (correct) {
     progress.correctCount++;
@@ -36,17 +36,17 @@ export function recordAnswer(item, correct) {
   progress.lastReviewedAt = Date.now();
   progress.nextReviewAt   = Date.now() + days * 24 * 60 * 60 * 1000;
 
-  saveItemProgress(item.unitId, item.itemNumber, progress);
+  saveItemProgress(item.level, item.unitId, item.itemNumber, progress);
   return progress;
 }
 
 export function getMastery(item) {
-  const p = getItemProgress(item.unitId, item.itemNumber);
+  const p = getItemProgress(item.level, item.unitId, item.itemNumber);
   return p.mastery || 0;
 }
 
 export function getStatus(item) {
-  const p = getItemProgress(item.unitId, item.itemNumber);
+  const p = getItemProgress(item.level, item.unitId, item.itemNumber);
   return p.status || 'new';
 }
 

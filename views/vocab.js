@@ -16,7 +16,7 @@ const MASTERY_COLORS = {
 };
 
 export function renderVocab(container, { item, unit }) {
-  const progress = getItemProgress(item.unitId, item.itemNumber);
+  const progress = getItemProgress(item.level, item.unitId, item.itemNumber);
   const status = progress.status || 'new';
   const statusColor = MASTERY_COLORS[status] || '#6366f1';
 
