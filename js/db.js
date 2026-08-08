@@ -1,0 +1,124 @@
+// ============================================================
+// db.js — User progress persistence (IndexedDB via localStorage fallback)
+// Separates source vocabulary from user-specific progress
+// ============================================================
+
+const DB_KEY = 'turkce_progress_v1';
+
+function loadAll() {
+  try {
+    const raw = localStorage.getItem(DB_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch (_) {}
+  return {};
+}
+
+function saveAll(data) {
+  try {
+    localStorage.setItem(DB_KEY, JSON.stringify(data));
+  } catch (_) {}
+}
+
+// ---- User Stats ----
+
+export function getStats() {
+  const d = loadAll();
+  return d.stats || {
+    xp:            0,
+    totalXP:       0,
+    streak:        0,
+    lastStudyDate: null,
+    dailyXP:       0,
+    dailyDate:     null,
+  };
+}
+
+export function saveStats(stats) {
+  const d = loadAll();
+  d.stats = stats;
+  saveAll(d);
+}
+
+// ---- Unit Progress ----
+// unitProgress[unitId] = { unlocked, lessonsCompleted, challenged, completed }
+
+export function getUnitProgress() {
+  const d = loadAll();
+  return d.unitProgress || { 'unit-01': { unlocked: true, lessonsCompleted: 0, challenged: false, completed: false } };
+}
+
+export function saveUnitProgress(up) {
+  const d = loadAll();
+  d.unitProgress = up;
+  saveAll(d);
+}
+
+// ---- Vocabulary Progress ----
+// vocabProgress[`unit-XX-NNN`] = { status, mastery, correctCount, incorrectCount, lastReviewedAt, nextReviewAt }
+
+export function getVocabProgress() {
+  const d = loadAll();
+  return d.vocabProgress || {};
+}
+
+export function saveVocabProgress(vp) {
+  const d = loadAll();
+  d.vocabProgress = vp;
+  saveAll(d);
+}
+
+export function getItemProgress(unitId, itemNumber) {
+  const vp = getVocabProgress();
+  const key = `${unitId}-${itemNumber}`;
+  return vp[key] || {
+    key,
+    status:        'new',   // new | learning | familiar | strong | mastered
+    mastery:       0,       // 0..5
+    correctCount:  0,
+    incorrectCount: 0,
+    lastReviewedAt: null,
+    nextReviewAt:   null,
+  };
+}
+
+export function saveItemProgress(unitId, itemNumber, progress) {
+  const vp = getVocabProgress();
+  const key = `${unitId}-${itemNumber}`;
+  vp[key] = { ...progress, key };
+  saveVocabProgress(vp);
+}
+
+// ---- Helpers ----
+
+export function getProgressSummary(vocab) {
+  const vp = getVocabProgress();
+  let newCount = 0, learning = 0, familiar = 0, strong = 0, mastered = 0;
+
+  for (const item of vocab) {
+    const key = `${item.unitId}-${item.itemNumber}`;
+    const p = vp[key];
+    if (!p || p.status === 'new') newCount++;
+    else if (p.status === 'learning') learning++;
+    else if (p.status === 'familiar') familiar++;
+    else if (p.status === 'strong') strong++;
+    else if (p.status === 'mastered') mastered++;
+  }
+
+  return { new: newCount, learning, familiar, strong, mastered, total: vocab.length };
+}
+
+export function getDueForReview(vocab) {
+  const vp = getVocabProgress();
+  const now = Date.now();
+  return vocab.filter(item => {
+    const key = `${item.unitId}-${item.itemNumber}`;
+    const p = vp[key];
+    if (!p || p.status === 'new') return false;
+    if (!p.nextReviewAt) return true;
+    return p.nextReviewAt <= now;
+  });
+}
+
+export function clearAll() {
+  localStorage.removeItem(DB_KEY);
+}

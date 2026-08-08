@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Türkçe — A1 darajasidan boshlab o'zbek tilidagi o'quvchilar uchun turk tili o'rganish platformasi. Duolingo uslubidagi o'yin va mashqlar." />
+  <title>Türkçe — Turk tilini o'rganing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- App container -->
+  <div id="app"></div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav" id="bottom-nav">
+    <button class="nav-tab" id="nav-home" data-route="#home" aria-label="Asosiy">
+      <span class="nav-icon">🏠</span>
+      <span class="nav-label">Asosiy</span>
+    </button>
+    <button class="nav-tab" id="nav-review" data-route="#review" aria-label="Takrorlash">
+      <span class="nav-icon">🔁</span>
+      <span class="nav-label">Takrorlash</span>
+    </button>
+    <button class="nav-tab" id="nav-profile" data-route="#profile" aria-label="Profil">
+      <span class="nav-icon">👤</span>
+      <span class="nav-label">Profil</span>
+    </button>
+  </nav>
+
+  <!-- Main app module -->
+  <script type="module">
+    import { registerRoute, initRouter, navigate } from './js/router.js';
+    import { renderHome }   from './views/home.js';
+    import { renderUnit }   from './views/unit.js';
+    import { renderLesson } from './views/lesson.js';
+    import { renderResult } from './views/result.js';
+    import { renderReview } from './views/review.js';
+    import { renderVocab }  from './views/vocab.js';
+    import { renderStory }  from './views/story.js';
+    import { getStats, saveStats, getUnitProgress, saveUnitProgress } from './js/db.js';
+
+    // ---- Streak check on load ----
+    (function checkStreak() {
+      const stats = getStats();
+      const today = new Date().toDateString();
+      if (stats.lastStudyDate !== today) {
+        const yesterday = new Date(Date.now() - 86400000).toDateString();
+        if (stats.lastStudyDate !== yesterday && stats.lastStudyDate != null) {
+          stats.streak = 0;
+        }
+        stats.dailyXP = 0;
+        stats.dailyDate = today;
+        saveStats(stats);
+      }
+    })();
+
+    // ---- Profile view (inline) ----
+    function renderProfile(container) {
+      const stats = getStats();
+      const up = getUnitProgress();
+      const totalUnits = 6;
+      const completedUnits = Object.values(up).filter(u => u.completed).length;
+
+      container.innerHTML = `
+        <div class="profile-screen">
+          <header class="screen-header">
+            <h1 class="screen-header-title">👤 Profil</h1>
+          </header>
+
+          <div class="profile-avatar-card">
+            <div class="avatar-circle">🎓</div>
+            <div class="profile-level-badge">A1</div>
+          </div>
+
+          <div class="profile-stats-grid">
+            <div class="profile-stat-card">
+              <div class="psc-icon">🔥</div>
+              <div class="psc-value">${stats.streak || 0}</div>
+              <div class="psc-label">Ketma-ketlik</div>
+            </div>
+            <div class="profile-stat-card">
+              <div class="psc-icon">⚡</div>
+              <div class="psc-value">${stats.totalXP || 0}</div>
+              <div class="psc-label">Jami XP</div>
+            </div>
+            <div class="profile-stat-card">
+              <div class="psc-icon">🏆</div>
+              <div class="psc-value">${completedUnits}/${totalUnits}</div>
+              <div class="psc-label">Birliklar</div>
+            </div>
+            <div class="profile-stat-card">
+              <div class="psc-icon">🎯</div>
+              <div class="psc-value">${stats.dailyXP || 0}</div>
+              <div class="psc-label">Bugungi XP</div>
+            </div>
+          </div>
+
+          <div class="profile-section">
+            <h2 class="section-title">A1 Darajasi</h2>
+            <div class="level-info-card">
+              <div class="li-row">
+                <span>Jami so'zlar</span><strong>953</strong>
+              </div>
+              <div class="li-row">
+                <span>Birliklar</span><strong>6</strong>
+              </div>
+              <div class="li-row">
+                <span>Tugallangan</span><strong>${completedUnits}</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-section">
+            <h2 class="section-title">Sozlamalar</h2>
+            <button class="danger-btn" id="reset-btn">
+              🗑️ Ma'lumotlarni tozalash
+            </button>
+          </div>
+
+          <div style="height:100px"></div>
+        </div>
+      `;
+
+      container.querySelector('#reset-btn').addEventListener('click', () => {
+        if (confirm("Barcha progress o'chiriladi. Davom etasizmi?")) {
+          import('./js/db.js').then(db => {
+            db.clearAll();
+            navigate('#home');
+          });
+        }
+      });
+    }
+
+    // ---- Route Registration ----
+    registerRoute('#home',    (c) => renderHome(c));
+    registerRoute('#unit',    (c, p) => renderUnit(c, p));
+    registerRoute('#lesson',  (c, p) => renderLesson(c, p));
+    registerRoute('#result',  (c, p) => renderResult(c, p));
+    registerRoute('#review', renderReview);
+    registerRoute('#vocab', renderVocab);
+    registerRoute('#story', renderStory);
+    registerRoute('#profile', renderProfile);
+
+    // ---- Bottom Nav ----
+    const navTabs = document.querySelectorAll('.nav-tab');
+    const LESSON_ROUTES = new Set(['#lesson', '#result']);
+
+    function updateNav(route) {
+      const showNav = !LESSON_ROUTES.has(route);
+      document.getElementById('bottom-nav').style.display = showNav ? 'flex' : 'none';
+      navTabs.forEach(tab => {
+        tab.classList.toggle('nav-tab--active', tab.dataset.route === route);
+      });
+    }
+
+    navTabs.forEach(tab => {
+      tab.addEventListener('click', () => navigate(tab.dataset.route));
+    });
+
+    // Watch hash changes for nav update
+    window.addEventListener('hashchange', () => {
+      updateNav(window.location.hash || '#home');
+    });
+
+    // Init
+    initRouter();
+    updateNav(window.location.hash || '#home');
+
+  </script>
+
+</body>
+</html>

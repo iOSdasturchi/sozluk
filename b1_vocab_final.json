@@ -1,0 +1,5292 @@
+[
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 1,
+    "turkish": "abone",
+    "uzbek": "obunachi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 2,
+    "turkish": "acil",
+    "uzbek": "shoshilinch, muhim",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 3,
+    "turkish": "bedel",
+    "uzbek": "badal, to‘lov",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 4,
+    "turkish": "borç",
+    "uzbek": "qarz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 5,
+    "turkish": "boru",
+    "uzbek": "quvur",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 6,
+    "turkish": "civar",
+    "uzbek": "atrof-muhit",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 7,
+    "turkish": "çöp",
+    "uzbek": "chiqindi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 8,
+    "turkish": "deneyim",
+    "uzbek": "tajriba",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 9,
+    "turkish": "depozito",
+    "uzbek": "depozit",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 10,
+    "turkish": "doğalgaz",
+    "uzbek": "tabiiy gaz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 11,
+    "turkish": "döşeme",
+    "uzbek": "pol, taxtali to’shama",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 12,
+    "turkish": "durum",
+    "uzbek": "holat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 13,
+    "turkish": "emlak",
+    "uzbek": "ko‘chmas mulk",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 14,
+    "turkish": "etki",
+    "uzbek": "ta’sir",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 15,
+    "turkish": "fatura",
+    "uzbek": "hisob (kommunal to‘lov)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 16,
+    "turkish": "halat",
+    "uzbek": "qalin arqon",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 17,
+    "turkish": "ısıtma",
+    "uzbek": "isitish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 18,
+    "turkish": "ihtiyaç",
+    "uzbek": "ehtiyoj",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 19,
+    "turkish": "imdat",
+    "uzbek": "yordam (help)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 20,
+    "turkish": "iş bölümü",
+    "uzbek": "ish bo‘limi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 21,
+    "turkish": "işlem",
+    "uzbek": "jarayon",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 22,
+    "turkish": "jandarma",
+    "uzbek": "askar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 23,
+    "turkish": "kiralık",
+    "uzbek": "ijara",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 24,
+    "turkish": "kombi",
+    "uzbek": "bug‘ qozoni (kotyol)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 25,
+    "turkish": "konum",
+    "uzbek": "manzil",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 26,
+    "turkish": "masrafsız",
+    "uzbek": "xarajatsiz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 27,
+    "turkish": "mevki",
+    "uzbek": "mavqe’",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 28,
+    "turkish": "muhit",
+    "uzbek": "muhit",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 29,
+    "turkish": "müstakil",
+    "uzbek": "mustaqil",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 30,
+    "turkish": "nezih",
+    "uzbek": "toza, sof",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 31,
+    "turkish": "ödeme",
+    "uzbek": "to‘lov",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 32,
+    "turkish": "ömür",
+    "uzbek": "umr",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 33,
+    "turkish": "pazarlık",
+    "uzbek": "savdo",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 34,
+    "turkish": "sahip",
+    "uzbek": "sohib, ega",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 35,
+    "turkish": "satış",
+    "uzbek": "sotish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 36,
+    "turkish": "sızıntı",
+    "uzbek": "oqova",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 37,
+    "turkish": "sigorta",
+    "uzbek": "sug‘urta",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 38,
+    "turkish": "şofben",
+    "uzbek": "suv isitgichi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 39,
+    "turkish": "tarife",
+    "uzbek": "narxlar ko‘rsatilgan diagramma, narxlar ta’rifi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 40,
+    "turkish": "tesisatçı",
+    "uzbek": "chilangar (santexnik)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 41,
+    "turkish": "tüketim",
+    "uzbek": "iste’mol",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 42,
+    "turkish": "uyum",
+    "uzbek": "moslik, uyg‘unlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 43,
+    "turkish": "vana",
+    "uzbek": "valf, klapan",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 44,
+    "turkish": "vergi",
+    "uzbek": "soliq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 45,
+    "turkish": "akıtmak",
+    "uzbek": "oqizmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 46,
+    "turkish": "atıştırmak",
+    "uzbek": "yengil tamaddi qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 47,
+    "turkish": "ayırmak",
+    "uzbek": "ajratmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 48,
+    "turkish": "benzemek",
+    "uzbek": "o‘xshamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 49,
+    "turkish": "boşaltmak",
+    "uzbek": "bo‘shatmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 50,
+    "turkish": "bozulmak",
+    "uzbek": "buzulmoq, aynimoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 51,
+    "turkish": "değerlendirmek",
+    "uzbek": "baholamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 52,
+    "turkish": "doldurmak",
+    "uzbek": "to‘ldirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 53,
+    "turkish": "fışkırmak",
+    "uzbek": "toshmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 54,
+    "turkish": "ısınmak",
+    "uzbek": "isinmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 55,
+    "turkish": "ilerletmek",
+    "uzbek": "ilgarilamoq, oldinga harakat qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 56,
+    "turkish": "kopmak",
+    "uzbek": "uzmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 57,
+    "turkish": "kurtulmak",
+    "uzbek": "qutulmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 58,
+    "turkish": "sığmak",
+    "uzbek": "sig‘moq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 59,
+    "turkish": "sıkışmak",
+    "uzbek": "siqilib qolmoq, tirband  bo‘lmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 60,
+    "turkish": "sızdırmak",
+    "uzbek": "sizdirmoq, tarqatmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 61,
+    "turkish": "söndürmek",
+    "uzbek": "o‘chirmoq, so‘ndirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 62,
+    "turkish": "telaşlanmak",
+    "uzbek": "xavotir olmoq,",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 63,
+    "turkish": "tıkanmak",
+    "uzbek": "tiqilib qolmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 64,
+    "turkish": "yansıtmak",
+    "uzbek": "aks ettrimoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 65,
+    "turkish": "yığmak",
+    "uzbek": "yig‘moq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-01",
+    "unitNumber": 1,
+    "itemNumber": 66,
+    "turkish": "zenginleşmek",
+    "uzbek": "boyimoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 1,
+    "turkish": "amaç",
+    "uzbek": "maqsad",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 2,
+    "turkish": "ambalaj",
+    "uzbek": "qadoq (upakova)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 3,
+    "turkish": "asgari",
+    "uzbek": "eng past, eng oz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 4,
+    "turkish": "ayrıntı",
+    "uzbek": "tafsilot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 5,
+    "turkish": "azim",
+    "uzbek": "kuch, qaror",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 6,
+    "turkish": "başarı",
+    "uzbek": "muvaffaqiyat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 7,
+    "turkish": "başlık",
+    "uzbek": "sarlavha",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 8,
+    "turkish": "beklenti",
+    "uzbek": "kutish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 9,
+    "turkish": "benzerlik",
+    "uzbek": "o‘xshashlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 10,
+    "turkish": "birey",
+    "uzbek": "individual",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 11,
+    "turkish": "cazip",
+    "uzbek": "jozibali",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 12,
+    "turkish": "çalışan",
+    "uzbek": "ishchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 13,
+    "turkish": "çevrimenlik",
+    "uzbek": "tarjimonlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 14,
+    "turkish": "danışman",
+    "uzbek": "maslahatchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 15,
+    "turkish": "davranış",
+    "uzbek": "o‘zini tutish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 16,
+    "turkish": "data",
+    "uzbek": "ma‘lumotlar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 17,
+    "turkish": "değişiklik",
+    "uzbek": "o‘zgaruvchanlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 18,
+    "turkish": "dikiş",
+    "uzbek": "tikish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 19,
+    "turkish": "dolgun",
+    "uzbek": "paxmoq, do‘mboq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 20,
+    "turkish": "dönüm noktası",
+    "uzbek": "burilish nuqtasi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 21,
+    "turkish": "duruş",
+    "uzbek": "turish, holat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 22,
+    "turkish": "düşük",
+    "uzbek": "past, oz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 23,
+    "turkish": "engel",
+    "uzbek": "to‘siq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 24,
+    "turkish": "engelli",
+    "uzbek": "imkoniyati cheklangan, nogiron",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 25,
+    "turkish": "esnek",
+    "uzbek": "o‘zgaruvchan, moslashuvchan.",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 26,
+    "turkish": "etkileyici",
+    "uzbek": "ta’sirli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 27,
+    "turkish": "fırsat",
+    "uzbek": "fursat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 28,
+    "turkish": "firma",
+    "uzbek": "firma, kompaniya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 29,
+    "turkish": "fizyolojik",
+    "uzbek": "jismoniy, fiziologik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 30,
+    "turkish": "geçici",
+    "uzbek": "o‘tkinchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 31,
+    "turkish": "gıda",
+    "uzbek": "ozuqa",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 32,
+    "turkish": "girişim",
+    "uzbek": "tashabbus",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 33,
+    "turkish": "girişimci",
+    "uzbek": "tashabbuskor",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 34,
+    "turkish": "görev",
+    "uzbek": "vazifa",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 35,
+    "turkish": "görünüş",
+    "uzbek": "tashqi ko‘rinish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 36,
+    "turkish": "güç",
+    "uzbek": "kuch",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 37,
+    "turkish": "hizmet",
+    "uzbek": "xizmat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 38,
+    "turkish": "içerik",
+    "uzbek": "tarkib, mohiyat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 39,
+    "turkish": "ikramiye",
+    "uzbek": "mukofot (premiya)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 40,
+    "turkish": "kazanç",
+    "uzbek": "qozonish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 41,
+    "turkish": "konteyner",
+    "uzbek": "konteyner",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 42,
+    "turkish": "korkunç",
+    "uzbek": "qo‘rqinchli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 43,
+    "turkish": "korkutucu",
+    "uzbek": "qo‘rqituvchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 44,
+    "turkish": "koşul",
+    "uzbek": "holat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 45,
+    "turkish": "macera",
+    "uzbek": "sarguzasht",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 46,
+    "turkish": "mesai",
+    "uzbek": "ish, mehnat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 47,
+    "turkish": "öğe",
+    "uzbek": "unsur, element",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 48,
+    "turkish": "özellik",
+    "uzbek": "o‘ziga xoslik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 49,
+    "turkish": "özgü",
+    "uzbek": "xos",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 50,
+    "turkish": "parlak",
+    "uzbek": "porloq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 51,
+    "turkish": "performans",
+    "uzbek": "namoyish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 52,
+    "turkish": "püf noktası",
+    "uzbek": "nozik nuqtasi,",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 53,
+    "turkish": "rastgele",
+    "uzbek": "tasodifiy",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 54,
+    "turkish": "rastlantı",
+    "uzbek": "qarshilash",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 55,
+    "turkish": "risk",
+    "uzbek": "xavf",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 56,
+    "turkish": "sağlık sigortası",
+    "uzbek": "sog‘liq sug‘urtasi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 57,
+    "turkish": "satış",
+    "uzbek": "sotuv",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 58,
+    "turkish": "saygın",
+    "uzbek": "hurmatli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 59,
+    "turkish": "sorumlu",
+    "uzbek": "mas’ul",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 60,
+    "turkish": "şart",
+    "uzbek": "shart",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 61,
+    "turkish": "su kanalı",
+    "uzbek": "suv kanali",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 62,
+    "turkish": "tanım",
+    "uzbek": "ta’rif, aniqlash",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 63,
+    "turkish": "tarz",
+    "uzbek": "usul, tarz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 64,
+    "turkish": "tehlike",
+    "uzbek": "tahlika",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 65,
+    "turkish": "toplayıcı",
+    "uzbek": "tanlovchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 66,
+    "turkish": "usul",
+    "uzbek": "usul",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 67,
+    "turkish": "ücra",
+    "uzbek": "chekka",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 68,
+    "turkish": "yapay zeka",
+    "uzbek": "sun’iy intellekt",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 69,
+    "turkish": "yaradılış",
+    "uzbek": "tabiati (inson)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 70,
+    "turkish": "yaşayış",
+    "uzbek": "yashash, hayot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 71,
+    "turkish": "yazılımcı",
+    "uzbek": "dasturchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 72,
+    "turkish": "yenilikçi",
+    "uzbek": "novator",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 73,
+    "turkish": "yetenek",
+    "uzbek": "qobiliyat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 74,
+    "turkish": "zafer",
+    "uzbek": "zafar, g‘alaba",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 75,
+    "turkish": "zahmetli",
+    "uzbek": "zahmatli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 76,
+    "turkish": "zorluk",
+    "uzbek": "qiyinchilik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 77,
+    "turkish": "aksamak",
+    "uzbek": "oqsamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 78,
+    "turkish": "aşmak",
+    "uzbek": "oshib o‘tmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 79,
+    "turkish": "bahsetmek",
+    "uzbek": "bahslashmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 80,
+    "turkish": "belirlemek",
+    "uzbek": "aniqlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 81,
+    "turkish": "bocalamak",
+    "uzbek": "beqaror, gandiraklamoq, chayqalmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 82,
+    "turkish": "cesaret etmek",
+    "uzbek": "jasorat ko‘rsatmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 83,
+    "turkish": "değerlendirmek",
+    "uzbek": "foydalanib qolmoq, qadrlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 84,
+    "turkish": "eleştirmek",
+    "uzbek": "tanqid qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 85,
+    "turkish": "geliştirmek",
+    "uzbek": "kelishtirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 86,
+    "turkish": "gerektirmek",
+    "uzbek": "talab qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 87,
+    "turkish": "gütmek",
+    "uzbek": "ko‘zlamoq, boqmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 88,
+    "turkish": "güvenmek",
+    "uzbek": "ishonmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 89,
+    "turkish": "ilgi çekmek",
+    "uzbek": "qiziqish uyg‘otmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 90,
+    "turkish": "imza atmak",
+    "uzbek": "imzolamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 91,
+    "turkish": "incelemek",
+    "uzbek": "tadqiq etmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 92,
+    "turkish": "kurmak",
+    "uzbek": "qurmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 93,
+    "turkish": "kurtarmak",
+    "uzbek": "qutqarmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 94,
+    "turkish": "motive etmek",
+    "uzbek": "motivatsiya bermoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 95,
+    "turkish": "paylaşmak",
+    "uzbek": "baham ko‘rmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 96,
+    "turkish": "söz tutmak",
+    "uzbek": "so‘zida turmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 97,
+    "turkish": "şans vermek",
+    "uzbek": "imkon bermoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 98,
+    "turkish": "şikayet etmek",
+    "uzbek": "shikoyat qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 99,
+    "turkish": "tanımlamak",
+    "uzbek": "ta’rif bermoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 100,
+    "turkish": "tüketmek",
+    "uzbek": "iste’mol qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 101,
+    "turkish": "ulaşmak",
+    "uzbek": "yetishmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 102,
+    "turkish": "uzaklaşmak",
+    "uzbek": "uzoqlashmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 103,
+    "turkish": "yaratmak",
+    "uzbek": "yaratmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 104,
+    "turkish": "yenilemek",
+    "uzbek": "yangilamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 105,
+    "turkish": "yetinmek",
+    "uzbek": "yetarli bo‘lmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 106,
+    "turkish": "yönetmek",
+    "uzbek": "yo‘naltirmoq KALIP İFADELER",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 107,
+    "turkish": "Sıfırdan başlamak",
+    "uzbek": "boshidan boshlamoq, noldan boshlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-02",
+    "unitNumber": 2,
+    "itemNumber": 108,
+    "turkish": "Sıfırdan var etmek",
+    "uzbek": "noldan bor qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 1,
+    "turkish": "akciğer",
+    "uzbek": "buyrak",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 2,
+    "turkish": "akupunktur",
+    "uzbek": "ignaterapiya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 3,
+    "turkish": "alerji",
+    "uzbek": "allergiya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 4,
+    "turkish": "antibiyotik",
+    "uzbek": "antibiotik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 5,
+    "turkish": "araştırma",
+    "uzbek": "tadqiqot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 6,
+    "turkish": "bağımlı",
+    "uzbek": "qaram",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 7,
+    "turkish": "bağırsak",
+    "uzbek": "ichak",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 8,
+    "turkish": "bakteri",
+    "uzbek": "bakteriya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 9,
+    "turkish": "belerti",
+    "uzbek": "alomat (simptom)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 10,
+    "turkish": "besin",
+    "uzbek": "oziq-ovqat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 11,
+    "turkish": "beyin",
+    "uzbek": "miya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 12,
+    "turkish": "bilinç",
+    "uzbek": "ong",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 13,
+    "turkish": "boyut",
+    "uzbek": "o‘lcham, hajm",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 14,
+    "turkish": "böbrek",
+    "uzbek": "buyrak",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 15,
+    "turkish": "bulantı",
+    "uzbek": "ko‘ngil aynishi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 16,
+    "turkish": "bulaşıcı",
+    "uzbek": "yuqumli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 17,
+    "turkish": "burun akıntısı",
+    "uzbek": "burun oqishi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 18,
+    "turkish": "can",
+    "uzbek": "jon, ruh",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 19,
+    "turkish": "çürük",
+    "uzbek": "chirigan",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 20,
+    "turkish": "dalak",
+    "uzbek": "taloq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 21,
+    "turkish": "damar",
+    "uzbek": "tomir",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 22,
+    "turkish": "dezenfektan",
+    "uzbek": "dezinfeksiyalovchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 23,
+    "turkish": "döküntü",
+    "uzbek": "qoldiq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 24,
+    "turkish": "dürtü",
+    "uzbek": "impuls",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 25,
+    "turkish": "eklem",
+    "uzbek": "qo‘shma",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 26,
+    "turkish": "felç",
+    "uzbek": "falaj",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 27,
+    "turkish": "gerginlik",
+    "uzbek": "zo‘riqish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 28,
+    "turkish": "gıda",
+    "uzbek": "ozuqa",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 29,
+    "turkish": "havale (ateşli hastalık)",
+    "uzbek": "sudurgi (tana harorati 39 dan oshganda kuzatiladigan kasallik)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 30,
+    "turkish": "iç organ",
+    "uzbek": "ichki organ",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 31,
+    "turkish": "iğne",
+    "uzbek": "igna",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 32,
+    "turkish": "iltihap",
+    "uzbek": "yallig‘lanish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 33,
+    "turkish": "ishal",
+    "uzbek": "diareya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 34,
+    "turkish": "iştah",
+    "uzbek": "ishtaha",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 35,
+    "turkish": "kan akışı",
+    "uzbek": "qon oqishi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 36,
+    "turkish": "kan dolaşımı",
+    "uzbek": "qon aylanishi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 37,
+    "turkish": "karaciğer",
+    "uzbek": "jigar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 38,
+    "turkish": "karbonhidrat",
+    "uzbek": "uglivod",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 39,
+    "turkish": "kas sistemi",
+    "uzbek": "mushak tuzilishi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 40,
+    "turkish": "kaygı",
+    "uzbek": "tashvish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 41,
+    "turkish": "kızamık",
+    "uzbek": "qizamiq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 42,
+    "turkish": "koltuk değneği",
+    "uzbek": "qo‘ltiqtayoq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 43,
+    "turkish": "kronik hastalık",
+    "uzbek": "surunkali kasallik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 44,
+    "turkish": "kusma",
+    "uzbek": "qusish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 45,
+    "turkish": "menenjit",
+    "uzbek": "meningit",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 46,
+    "turkish": "metobolizma",
+    "uzbek": "moddalar almashinuvi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 47,
+    "turkish": "mide",
+    "uzbek": "oshqazon",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 48,
+    "turkish": "migren",
+    "uzbek": "migren (boshning surunkali og‘rishi bilan kechadigan kasallik)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 49,
+    "turkish": "mikrop",
+    "uzbek": "mikrop",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 50,
+    "turkish": "mikroskop",
+    "uzbek": "mikroskop",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 51,
+    "turkish": "nezle",
+    "uzbek": "shamollash",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 52,
+    "turkish": "obezite",
+    "uzbek": "semizlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 53,
+    "turkish": "obsesif",
+    "uzbek": "obsesif (ruhiy buzilish, biror narsaga haddan tashqari e’tibor qaratish)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 54,
+    "turkish": "otistik",
+    "uzbek": "autizm (diqqat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 55,
+    "turkish": "öğün",
+    "uzbek": "mahal",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 56,
+    "turkish": "parazit",
+    "uzbek": "parazit",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 57,
+    "turkish": "pastörize",
+    "uzbek": "pastrizatsiya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 58,
+    "turkish": "psikolojik",
+    "uzbek": "psixologik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 59,
+    "turkish": "rahatsızlık",
+    "uzbek": "noqulaylik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 60,
+    "turkish": "ruhsal",
+    "uzbek": "ruhiy",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 61,
+    "turkish": "sakatlık",
+    "uzbek": "nogironlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 62,
+    "turkish": "salgın",
+    "uzbek": "epidemiya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 63,
+    "turkish": "saplantı",
+    "uzbek": "ta’qib qilish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 64,
+    "turkish": "semptom",
+    "uzbek": "alomat (semptom)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 65,
+    "turkish": "sır",
+    "uzbek": "sir",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 66,
+    "turkish": "simetrik",
+    "uzbek": "semmetrik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 67,
+    "turkish": "solunum",
+    "uzbek": "havo tomchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 68,
+    "turkish": "sürükleyici",
+    "uzbek": "davomli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 69,
+    "turkish": "şuur",
+    "uzbek": "ong, shuur",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 70,
+    "turkish": "süreç",
+    "uzbek": "davr, jarayon",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 71,
+    "turkish": "takıntılı",
+    "uzbek": "obsesif xastaligining sinonimi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 72,
+    "turkish": "toksin",
+    "uzbek": "zahar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 73,
+    "turkish": "üniforma",
+    "uzbek": "yuniforma",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 74,
+    "turkish": "virüs",
+    "uzbek": "virus",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 75,
+    "turkish": "yara",
+    "uzbek": "yara",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 76,
+    "turkish": "yaşam",
+    "uzbek": "hayot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 77,
+    "turkish": "yoga",
+    "uzbek": "yoga",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 78,
+    "turkish": "acımak",
+    "uzbek": "og‘rimoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 79,
+    "turkish": "akmak",
+    "uzbek": "oqmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 80,
+    "turkish": "bahsetmek",
+    "uzbek": "bahslashmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 81,
+    "turkish": "beslenmek",
+    "uzbek": "oziqlanmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 82,
+    "turkish": "biriktirmek",
+    "uzbek": "yig‘ish",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 83,
+    "turkish": "bozmak",
+    "uzbek": "buzmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 84,
+    "turkish": "bulaşmak",
+    "uzbek": "yuqmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 85,
+    "turkish": "burkmak",
+    "uzbek": "qayrilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 86,
+    "turkish": "çoğalmak",
+    "uzbek": "ko‘paymoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 87,
+    "turkish": "dönmek",
+    "uzbek": "aylanmoq, qaytmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 88,
+    "turkish": "kaçınmak",
+    "uzbek": "qochmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 89,
+    "turkish": "kızarmak",
+    "uzbek": "qizarmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 90,
+    "turkish": "kurtulmak",
+    "uzbek": "qutilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 91,
+    "turkish": "kusmak",
+    "uzbek": "qusmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 92,
+    "turkish": "ölçmek",
+    "uzbek": "o‘lchash",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 93,
+    "turkish": "şişmek",
+    "uzbek": "shishmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 94,
+    "turkish": "temas kurmak",
+    "uzbek": "aloqa qilmoq (masalan qo‘l ushlashib ko‘rishmoq)",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 95,
+    "turkish": "terlemek",
+    "uzbek": "terlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 96,
+    "turkish": "titremek",
+    "uzbek": "titramoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 97,
+    "turkish": "tüketmek",
+    "uzbek": "iste’mol qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 98,
+    "turkish": "uzaklaşmak",
+    "uzbek": "uzoqlashmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 99,
+    "turkish": "yaralanmak",
+    "uzbek": "yaralanmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 100,
+    "turkish": "yayılmak",
+    "uzbek": "yoyilmoq KALIP İFADELER",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 101,
+    "turkish": "hastalık hastası",
+    "uzbek": "o‘zini kasal deb o‘ylaydiganlar kasalligi",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 102,
+    "turkish": "katkı maddesi",
+    "uzbek": "qo‘shimcha modda",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 103,
+    "turkish": "şifayı kapmak",
+    "uzbek": "hastalanmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-03",
+    "unitNumber": 3,
+    "itemNumber": 104,
+    "turkish": "yaşam koçu",
+    "uzbek": "hayot murabbiyi",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 1,
+    "turkish": "akıcı",
+    "uzbek": "ravon",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 2,
+    "turkish": "akran",
+    "uzbek": "tengdosh",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 3,
+    "turkish": "aksan",
+    "uzbek": "urg‘u",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 4,
+    "turkish": "alaylı",
+    "uzbek": "kinoyali",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 5,
+    "turkish": "alt yazı",
+    "uzbek": "tagyozuv (subtitr)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 6,
+    "turkish": "araştırma",
+    "uzbek": "tadqiqot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 7,
+    "turkish": "arzu",
+    "uzbek": "istak, orzu",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 8,
+    "turkish": "avantaj",
+    "uzbek": "ijobiy",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 9,
+    "turkish": "ayaküstü yemek",
+    "uzbek": "tez tayyor bo‘ladigan taom (fast food)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 10,
+    "turkish": "bağlantı",
+    "uzbek": "ulanish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 11,
+    "turkish": "baskı",
+    "uzbek": "zulm, bosim",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 12,
+    "turkish": "başlanğıç",
+    "uzbek": "boshlang‘ich",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 13,
+    "turkish": "beceri alanları",
+    "uzbek": "mahorat sohalari",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 14,
+    "turkish": "belediye",
+    "uzbek": "kengash",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 15,
+    "turkish": "berber",
+    "uzbek": "sartarosh",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 16,
+    "turkish": "biçim",
+    "uzbek": "format",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 17,
+    "turkish": "bilgi",
+    "uzbek": "ma’lumot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 18,
+    "turkish": "bilinçli",
+    "uzbek": "ongli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 19,
+    "turkish": "boyut",
+    "uzbek": "o‘lcham",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 20,
+    "turkish": "camcılık",
+    "uzbek": "deraza-romchilik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 21,
+    "turkish": "çare",
+    "uzbek": "chora",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 22,
+    "turkish": "çıraklık",
+    "uzbek": "shogirdlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 23,
+    "turkish": "çiftçilik",
+    "uzbek": "dehqonchilik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 24,
+    "turkish": "çizgi",
+    "uzbek": "chiziq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 25,
+    "turkish": "dama",
+    "uzbek": "shashka",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 26,
+    "turkish": "davranış",
+    "uzbek": "o‘zini tutish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 27,
+    "turkish": "denge",
+    "uzbek": "muvozanat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 28,
+    "turkish": "destekçi",
+    "uzbek": "tarafdor",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 29,
+    "turkish": "detay",
+    "uzbek": "tafsilot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 30,
+    "turkish": "dezavantaj",
+    "uzbek": "salbiy",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 31,
+    "turkish": "disiplin",
+    "uzbek": "intizom",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 32,
+    "turkish": "diz",
+    "uzbek": "tizza",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 33,
+    "turkish": "düşük",
+    "uzbek": "oz, kam, past",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 34,
+    "turkish": "emlakçılık",
+    "uzbek": "dallol (makler)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 35,
+    "turkish": "esneklik",
+    "uzbek": "moslashuvchanlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 36,
+    "turkish": "etki",
+    "uzbek": "ta’sir",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 37,
+    "turkish": "eyalet",
+    "uzbek": "davlat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 38,
+    "turkish": "gelenek",
+    "uzbek": "an’ana",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 39,
+    "turkish": "gemecilik",
+    "uzbek": "kemasozlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 40,
+    "turkish": "görsel malzeme",
+    "uzbek": "vizual material (qobiliyat)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 41,
+    "turkish": "grafik tasarım",
+    "uzbek": "grafik dizayn",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 42,
+    "turkish": "gurur",
+    "uzbek": "g‘urur",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 43,
+    "turkish": "hafıza",
+    "uzbek": "xotira",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 44,
+    "turkish": "hakem",
+    "uzbek": "hakam",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 45,
+    "turkish": "hazırlık",
+    "uzbek": "tayyorgarlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 46,
+    "turkish": "içsel",
+    "uzbek": "ichki, mohiyat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 47,
+    "turkish": "ikramiye",
+    "uzbek": "mukofot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 48,
+    "turkish": "iletişim",
+    "uzbek": "aloqa",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 49,
+    "turkish": "ilişki",
+    "uzbek": "munosabat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 50,
+    "turkish": "ilişkin",
+    "uzbek": "bog‘liq",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 51,
+    "turkish": "işlev",
+    "uzbek": "vazifa",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 52,
+    "turkish": "ipucu",
+    "uzbek": "kalavaning uchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 53,
+    "turkish": "jest",
+    "uzbek": "jest",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 54,
+    "turkish": "jüri",
+    "uzbek": "hakam",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 55,
+    "turkish": "kalite",
+    "uzbek": "sifat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 56,
+    "turkish": "kavram",
+    "uzbek": "tushuncha",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 57,
+    "turkish": "kaynak",
+    "uzbek": "asos, manbaa",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 58,
+    "turkish": "kinestetik",
+    "uzbek": "kinestitik (o‘z hatti harakatlarini muvofiqlashtirish qobiliyati)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 59,
+    "turkish": "konsept",
+    "uzbek": "tushuncha",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 60,
+    "turkish": "koordinasyon",
+    "uzbek": "muvofiqlashtirish",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 61,
+    "turkish": "kriter",
+    "uzbek": "me’zon, o‘lchov",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 62,
+    "turkish": "kurum",
+    "uzbek": "tashkilot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 63,
+    "turkish": "madde",
+    "uzbek": "modda",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 64,
+    "turkish": "makale",
+    "uzbek": "maqola",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 65,
+    "turkish": "marangoz",
+    "uzbek": "duradgor",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 66,
+    "turkish": "mekanizma",
+    "uzbek": "mexanizm",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 67,
+    "turkish": "mektepli",
+    "uzbek": "kasb-hunar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 68,
+    "turkish": "melodi",
+    "uzbek": "ohang",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 69,
+    "turkish": "memleket",
+    "uzbek": "viloyat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 70,
+    "turkish": "mimik",
+    "uzbek": "mimika",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 71,
+    "turkish": "muhasebecilik",
+    "uzbek": "buxgaltiriya",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 72,
+    "turkish": "nesnel",
+    "uzbek": "obyektiv",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 73,
+    "turkish": "nitelik",
+    "uzbek": "xususiyat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 74,
+    "turkish": "objektif",
+    "uzbek": "obyektiv",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 75,
+    "turkish": "öge",
+    "uzbek": "modda, unsur",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 76,
+    "turkish": "ölçüt",
+    "uzbek": "me’zon, o‘lchov",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 77,
+    "turkish": "ömür",
+    "uzbek": "umr",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 78,
+    "turkish": "özgür",
+    "uzbek": "ozod, erkin",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 79,
+    "turkish": "proje",
+    "uzbek": "loyiha",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 80,
+    "turkish": "ritim",
+    "uzbek": "ritm",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 81,
+    "turkish": "ritmik",
+    "uzbek": "ritmga xos",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 82,
+    "turkish": "sektör",
+    "uzbek": "sektor",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 83,
+    "turkish": "sivilce",
+    "uzbek": "husnbuzar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 84,
+    "turkish": "siyaset",
+    "uzbek": "siyosat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 85,
+    "turkish": "slayt",
+    "uzbek": "slayd",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 86,
+    "turkish": "soyut",
+    "uzbek": "mavhum",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 87,
+    "turkish": "spor dalı",
+    "uzbek": "sport sohasi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 88,
+    "turkish": "suçlu",
+    "uzbek": "aybdor",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 89,
+    "turkish": "şekil",
+    "uzbek": "shakl",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 90,
+    "turkish": "şüpheli",
+    "uzbek": "shubhali",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 91,
+    "turkish": "tablet",
+    "uzbek": "planshet",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 92,
+    "turkish": "tasarruflu",
+    "uzbek": "tejamkor",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 93,
+    "turkish": "tören",
+    "uzbek": "marosim",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 94,
+    "turkish": "ustalık",
+    "uzbek": "mahorat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 95,
+    "turkish": "uygun",
+    "uzbek": "mos",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 96,
+    "turkish": "uyumlu",
+    "uzbek": "mos keluvchan",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 97,
+    "turkish": "uzay",
+    "uzbek": "fazo",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 98,
+    "turkish": "üretken",
+    "uzbek": "ishlab chiqarilgan",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 99,
+    "turkish": "yapboz",
+    "uzbek": "pazl o‘yini",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 100,
+    "turkish": "yaşıt",
+    "uzbek": "tengdosh",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 101,
+    "turkish": "yatılı",
+    "uzbek": "yotoqli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 102,
+    "turkish": "yayın",
+    "uzbek": "nashr",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 103,
+    "turkish": "yoksul",
+    "uzbek": "nochor",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 104,
+    "turkish": "yoksulluk",
+    "uzbek": "nochorlik, kambag‘allik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 105,
+    "turkish": "yönetici",
+    "uzbek": "boshqaruvchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 106,
+    "turkish": "yöntem",
+    "uzbek": "usul, uslub",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 107,
+    "turkish": "yüksek lisans",
+    "uzbek": "magistratura",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 108,
+    "turkish": "zeka",
+    "uzbek": "aql",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 109,
+    "turkish": "zihin",
+    "uzbek": "zehn",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 110,
+    "turkish": "af çıkmak",
+    "uzbek": "amnistiya",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 111,
+    "turkish": "aksatmak",
+    "uzbek": "oqsatmoq (ishni orqaga ketishiga sabab bo‘lish)",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 112,
+    "turkish": "analiz etmek",
+    "uzbek": "tahlil qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 113,
+    "turkish": "beste yapmak",
+    "uzbek": "bastalamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 114,
+    "turkish": "burs almak",
+    "uzbek": "stipendiya olmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 115,
+    "turkish": "çocuk büyütmek",
+    "uzbek": "bola katta qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 116,
+    "turkish": "danışmak",
+    "uzbek": "maslahatlashmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 117,
+    "turkish": "desteklemek",
+    "uzbek": "qo‘llab- quvvatlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 119,
+    "turkish": "hafızaya kaydetmek",
+    "uzbek": "xotirasida saqlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 120,
+    "turkish": "hedefe ulaşmak",
+    "uzbek": "maqsadga erishmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 121,
+    "turkish": "kaydetmek",
+    "uzbek": "qayd etmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 122,
+    "turkish": "keşfetmek",
+    "uzbek": "kashf qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 123,
+    "turkish": "ödül vermek",
+    "uzbek": "mukofot bermoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 124,
+    "turkish": "özetlemek",
+    "uzbek": "umumlashtirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 125,
+    "turkish": "özgür düşünmek",
+    "uzbek": "erkin fikrlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 126,
+    "turkish": "ritim tutmak",
+    "uzbek": "ritmga tushmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 127,
+    "turkish": "sıkışmak",
+    "uzbek": "tiqilib qolmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 128,
+    "turkish": "sonuç vermek",
+    "uzbek": "natija bermoq, xulosa qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 129,
+    "turkish": "uygulamak",
+    "uzbek": "topshirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 130,
+    "turkish": "yorumlamak",
+    "uzbek": "sharhlamoq, izoh qoldirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 131,
+    "turkish": "zannetmek",
+    "uzbek": "taxmin qilmoq, deb o‘ylamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 132,
+    "turkish": "zorlanmak",
+    "uzbek": "qiynalmoq KALIP İFADELER",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 133,
+    "turkish": "boşluğa düşmek",
+    "uzbek": "nima qilishni bilmay qolish",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 134,
+    "turkish": "dil dökmek",
+    "uzbek": "dardini doston qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 135,
+    "turkish": "eşlik etmek",
+    "uzbek": "hamroh bo‘lmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 136,
+    "turkish": "hatır sormak",
+    "uzbek": "hol-ahvol so‘ramoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 137,
+    "turkish": "kulak tıkamak",
+    "uzbek": "hech kimni eshitishni xohlamaslik",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 138,
+    "turkish": "meydan okumak",
+    "uzbek": "chorlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-04",
+    "unitNumber": 4,
+    "itemNumber": 139,
+    "turkish": "özgür düşünmek",
+    "uzbek": "erkin fikrlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 1,
+    "turkish": "açlık",
+    "uzbek": "ochlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 2,
+    "turkish": "akademik",
+    "uzbek": "akademik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 3,
+    "turkish": "alışveriş sitesi",
+    "uzbek": "savdo-sotiq sayti",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 4,
+    "turkish": "asma kilit",
+    "uzbek": "qulf",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 5,
+    "turkish": "ayakkabı topuğu",
+    "uzbek": "poyabzal tovoni",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 6,
+    "turkish": "çeşme",
+    "uzbek": "buloq, chashma",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 7,
+    "turkish": "çaput",
+    "uzbek": "uvada, eski mato",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 8,
+    "turkish": "dağınıklık",
+    "uzbek": "tartibsizlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 9,
+    "turkish": "detoks",
+    "uzbek": "detoks (organizmni tozalash terapiyasi)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 10,
+    "turkish": "dilik ağaçı",
+    "uzbek": "tilak daraxti",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 11,
+    "turkish": "ebeveyn",
+    "uzbek": "ota-ona",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 12,
+    "turkish": "eğitmen",
+    "uzbek": "o‘rgatuvchi (instruktor)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 13,
+    "turkish": "empati",
+    "uzbek": "hamdardlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 14,
+    "turkish": "eşarp",
+    "uzbek": "sharf",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 15,
+    "turkish": "hayır",
+    "uzbek": "yaxshilik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 16,
+    "turkish": "kargo",
+    "uzbek": "tashima yuk (kargo)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 17,
+    "turkish": "keşke",
+    "uzbek": "koshki",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 18,
+    "turkish": "kırık",
+    "uzbek": "buzilgan, qirilgan",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 19,
+    "turkish": "makale",
+    "uzbek": "maqola",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 20,
+    "turkish": "ömür",
+    "uzbek": "umr, muddat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 21,
+    "turkish": "pışmanlık",
+    "uzbek": "pushaymonlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 22,
+    "turkish": "reklam",
+    "uzbek": "reklama",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 23,
+    "turkish": "sabır",
+    "uzbek": "sabr",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 24,
+    "turkish": "sahil",
+    "uzbek": "sohil",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 25,
+    "turkish": "sorumsuz",
+    "uzbek": "mas’ulyatsiz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 26,
+    "turkish": "şer",
+    "uzbek": "yomon",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 27,
+    "turkish": "tekne",
+    "uzbek": "qayiq, kema",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 28,
+    "turkish": "toksin",
+    "uzbek": "zahar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 29,
+    "turkish": "umutsuz",
+    "uzbek": "umidsiz",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 30,
+    "turkish": "ürün",
+    "uzbek": "mahsulot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 31,
+    "turkish": "yazlık",
+    "uzbek": "dala hovli (dacha)",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 32,
+    "turkish": "yorum",
+    "uzbek": "izoh, sharh",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 33,
+    "turkish": "araştırma yapmak",
+    "uzbek": "tadqiqot",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 34,
+    "turkish": "çağırmak",
+    "uzbek": "chaqirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 35,
+    "turkish": "dilek tutmak",
+    "uzbek": "tilak tilamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 36,
+    "turkish": "dinmek",
+    "uzbek": "tinmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 37,
+    "turkish": "iade etmek",
+    "uzbek": "qaytarib bermoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 38,
+    "turkish": "katkı sağlamak",
+    "uzbek": "hissa qo‘shmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 39,
+    "turkish": "ödünç vermek",
+    "uzbek": "qarzga bermoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 40,
+    "turkish": "öfkelendirmek",
+    "uzbek": "g‘azablantirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 41,
+    "turkish": "pışman olmak",
+    "uzbek": "pushaymon bo‘lmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 42,
+    "turkish": "sona ermek",
+    "uzbek": "oxiriga yetmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 43,
+    "turkish": "şikâyet etmek",
+    "uzbek": "shikoyat qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 44,
+    "turkish": "şışmanlamak",
+    "uzbek": "semirib ketmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 45,
+    "turkish": "talep etmek",
+    "uzbek": "talab qilmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 46,
+    "turkish": "yardımcı olmak",
+    "uzbek": "yordamchi bo‘lmoq KALIP İFADELER",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 47,
+    "turkish": "çocuk kalmak",
+    "uzbek": "bolaligicha qolmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 48,
+    "turkish": "dünya turuna çıkmak",
+    "uzbek": "dunyo kezmoq, jahon safariga chiqmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 49,
+    "turkish": "iç çekmek",
+    "uzbek": "xo‘rsinmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 50,
+    "turkish": "kalbı küt küt atmak",
+    "uzbek": "yuragi duk-duk urmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 51,
+    "turkish": "konsantre olmak",
+    "uzbek": "diqqatini jamlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 52,
+    "turkish": "ömür boyu",
+    "uzbek": "umr bo‘yi",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 53,
+    "turkish": "son model",
+    "uzbek": "so‘ggi rusum",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 54,
+    "turkish": "tadını çıkarmak",
+    "uzbek": "zavqlanmoq, maza qilib dam olmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 55,
+    "turkish": "vicdan muhasebesi",
+    "uzbek": "vijdon og‘rig‘i",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-05",
+    "unitNumber": 5,
+    "itemNumber": 56,
+    "turkish": "yasal işlem başlatmak",
+    "uzbek": "qonunan ish ko‘rish",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 1,
+    "turkish": "bariş",
+    "uzbek": "tinchlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 2,
+    "turkish": "beden dili",
+    "uzbek": "badan tili",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 3,
+    "turkish": "buket",
+    "uzbek": "guldasta",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 4,
+    "turkish": "canlılık",
+    "uzbek": "hayot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 5,
+    "turkish": "dindarlık",
+    "uzbek": "dindorlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 6,
+    "turkish": "dolunay",
+    "uzbek": "to‘lin oy",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 7,
+    "turkish": "etkinlik",
+    "uzbek": "faoliyat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 8,
+    "turkish": "festival",
+    "uzbek": "festival",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 9,
+    "turkish": "göçebe",
+    "uzbek": "ko‘chmanchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 10,
+    "turkish": "göz temasi",
+    "uzbek": "ko‘z bilan muloqot",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 11,
+    "turkish": "hayat tarzı",
+    "uzbek": "hayot tarzi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 12,
+    "turkish": "karanfıl",
+    "uzbek": "chinnigul",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 13,
+    "turkish": "karmaşık",
+    "uzbek": "murakkab",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 14,
+    "turkish": "karnaval",
+    "uzbek": "karnaval",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 15,
+    "turkish": "keçi",
+    "uzbek": "echki",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 16,
+    "turkish": "kolonya",
+    "uzbek": "adekalon, mushkanbar",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 17,
+    "turkish": "krizantem",
+    "uzbek": "xrizantema",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 18,
+    "turkish": "kumaş",
+    "uzbek": "mato",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 19,
+    "turkish": "maske",
+    "uzbek": "niqob",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 20,
+    "turkish": "masumiyet",
+    "uzbek": "aybsizlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 21,
+    "turkish": "oğlak",
+    "uzbek": "uloqcha",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 22,
+    "turkish": "onur",
+    "uzbek": "hurmat",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 23,
+    "turkish": "organik",
+    "uzbek": "organik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 24,
+    "turkish": "ot",
+    "uzbek": "o‘t",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 25,
+    "turkish": "portakal çiçeği",
+    "uzbek": "apelsin guli",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 26,
+    "turkish": "reklamcılık",
+    "uzbek": "reklamachilik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 27,
+    "turkish": "rengarenk",
+    "uzbek": "rang-barang",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 28,
+    "turkish": "sakinlik",
+    "uzbek": "sokinlik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 29,
+    "turkish": "sosyal sınıf",
+    "uzbek": "ijtimoiy sinf",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 30,
+    "turkish": "şekerleme",
+    "uzbek": "qandolatchilik",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 31,
+    "turkish": "tarım",
+    "uzbek": "qishloq xo‘jaligi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 32,
+    "turkish": "temsilci",
+    "uzbek": "vakil",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 33,
+    "turkish": "veba",
+    "uzbek": "vabo",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 34,
+    "turkish": "yapma",
+    "uzbek": "soxta, sun’iy",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 35,
+    "turkish": "yayla",
+    "uzbek": "yaylov",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 36,
+    "turkish": "yörük",
+    "uzbek": "ko‘chmanchi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 37,
+    "turkish": "yün",
+    "uzbek": "jun, yung",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 38,
+    "turkish": "zafer işareti",
+    "uzbek": "g‘alaba belgisi",
+    "wordType": "noun",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 39,
+    "turkish": "dolmak",
+    "uzbek": "to‘lmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 40,
+    "turkish": "göç etmek",
+    "uzbek": "ko‘chib o‘tmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 41,
+    "turkish": "kendine güvenmek",
+    "uzbek": "o‘ziga ishonmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 42,
+    "turkish": "otlamak",
+    "uzbek": "o‘tlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 43,
+    "turkish": "otlatmak",
+    "uzbek": "o‘tlatmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 44,
+    "turkish": "sağlamak",
+    "uzbek": "saqlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 45,
+    "turkish": "sürdürmek",
+    "uzbek": "davom ettirmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 46,
+    "turkish": "tazminat ödemek",
+    "uzbek": "kompensatsiya to‘lamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 47,
+    "turkish": "temas etmek",
+    "uzbek": "aloqa qilmoq KALIP İFADELER",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 48,
+    "turkish": "bir araya getirmek",
+    "uzbek": "to‘plamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 49,
+    "turkish": "bir çuval inciri berbat etmek",
+    "uzbek": "borini yo‘qqa chiqarmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 50,
+    "turkish": "gitmeyi değir",
+    "uzbek": "borishga arziydigan",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 51,
+    "turkish": "geçimini sağlamak",
+    "uzbek": "tirikchiligini o‘tkazmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 52,
+    "turkish": "göz atmak",
+    "uzbek": "ko‘z tashlamoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 53,
+    "turkish": "hayatında yer almak",
+    "uzbek": "hayotidan joy olmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 54,
+    "turkish": "her bütçeye uygun",
+    "uzbek": "cho‘ntakka mos, cho‘ntak ko‘taradigan",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 55,
+    "turkish": "misafir ağırlamak",
+    "uzbek": "mehmon kutmoq",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 56,
+    "turkish": "siz siz olun",
+    "uzbek": "siz siz bo‘ling, o‘z holingizcha qoling",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  },
+  {
+    "level": "B1",
+    "unitId": "unit-06",
+    "unitNumber": 6,
+    "itemNumber": 57,
+    "turkish": "sokakları koplamak",
+    "uzbek": "ko‘chalarnı qoplamoq, ko‘chaga yopirilish",
+    "wordType": "verb",
+    "source": "b1-pdf"
+  }
+]
