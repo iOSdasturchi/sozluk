@@ -38,6 +38,22 @@ export function initApp() {
   if (savedTheme === 'light') {
     document.documentElement.classList.add('light-mode');
   }
+  
+  // Auto sync from Gist if configured
+  const token = localStorage.getItem('turkce_gist_token');
+  const gistId = localStorage.getItem('turkce_gist_id');
+  if (token && gistId) {
+    import('./db.js').then(db => {
+      db.syncFromGist(token, gistId).then(updated => {
+        if (updated) {
+          console.log("Auto-synced from Github Gist.");
+          // Refresh current view if needed
+          const hash = window.location.hash || '#home';
+          render(hash, _params);
+        }
+      }).catch(e => console.error("Auto-sync error:", e));
+    });
+  }
 
   window.addEventListener('hashchange', () => {
     if (window._skipHashChange) return;

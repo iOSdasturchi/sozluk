@@ -122,3 +122,90 @@ export function getDueForReview(vocab) {
 export function clearAll() {
   localStorage.removeItem(DB_KEY);
 }
+
+// ============================================================
+// GIST SYNC LOGIC
+// ============================================================
+
+export async function createGist(token) {
+  const data = loadAll();
+  data.updatedAt = Date.now();
+  
+  const res = await fetch('https://api.github.com/gists', {
+    method: 'POST',
+    headers: {
+      'Authorization': `token ${token}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      description: "Turkce App Progress Sync",
+      public: false,
+      files: {
+        "turkce_progress.json": {
+          content: JSON.stringify(data)
+        }
+      }
+    })
+  });
+  
+  if (!res.ok) throw new Error("Gist yaratishda xatolik");
+  const gist = await res.json();
+  return gist.id;
+}
+
+export async function syncToGist(token, gistId) {
+  if (!token || !gistId) return;
+  const data = loadAll();
+  data.updatedAt = Date.now();
+  saveAll(data); // update local timestamp
+
+  const res = await fetch(`https://api.github.com/gists/${gistId}`, {
+    method: 'PATCH',
+    headers: {
+      'Authorization': `token ${token}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      files: {
+        "turkce_progress.json": {
+          content: JSON.stringify(data)
+        }
+      }
+    })
+  });
+  if (!res.ok) throw new Error("Sinxronizatsiyada xatolik (Yuklash)");
+  return await res.json();
+}
+
+export async function syncFromGist(token, gistId) {
+  if (!token || !gistId) return false;
+  
+  const res = await fetch(`https://api.github.com/gists/${gistId}`, {
+    headers: {
+      'Authorization': `token ${token}`,
+      'Accept': 'application/vnd.github.v3+json'
+    },
+    cache: 'no-store'
+  });
+  
+  if (!res.ok) throw new Error("Sinxronizatsiyada xatolik (O'qish)");
+  
+  const gist = await res.json();
+  const file = gist.files["turkce_progress.json"];
+  if (!file) return false;
+  
+  const remoteData = JSON.parse(file.content);
+  const localData = loadAll();
+  
+  const remoteTime = remoteData.updatedAt || 0;
+  const localTime = localData.updatedAt || 0;
+  
+  // Only overwrite if remote is newer
+  if (remoteTime > localTime) {
+    localStorage.setItem(DB_KEY, JSON.stringify(remoteData));
+    return true; // updated
+  }
+  return false; // local is newer or same
+}

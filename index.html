@@ -115,6 +115,21 @@
           </div>
 
           <div class="profile-section">
+            <h2 class="section-title">☁️ Cloud Sync (Gist)</h2>
+            <div style="background: var(--bg-card); padding: 15px; border-radius: 12px; margin-bottom: 15px; border: 1px solid var(--border);">
+              <label style="font-size: 14px; color: var(--text-muted); display: block; margin-bottom: 5px;">Github Token (PAT):</label>
+              <input type="password" id="gist-token" style="width: 100%; padding: 10px; border-radius: 8px; background: var(--bg-input); border: 1px solid var(--border); color: var(--text); margin-bottom: 10px;" placeholder="ghp_xxxxxxxx">
+              
+              <label style="font-size: 14px; color: var(--text-muted); display: block; margin-bottom: 5px;">Gist ID (Avtomatik to'ldiriladi):</label>
+              <input type="text" id="gist-id" style="width: 100%; padding: 10px; border-radius: 8px; background: var(--bg-input); border: 1px solid var(--border); color: var(--text); margin-bottom: 15px;" placeholder="gist id...">
+              
+              <div style="display: flex; gap: 10px;">
+                <button class="btn btn-primary" id="gist-save-btn" style="flex: 1; padding: 10px; font-weight: 600;">💾 Saqlash</button>
+                <button class="btn btn-primary" id="gist-sync-btn" style="flex: 1; padding: 10px; font-weight: 600; background: var(--success); color: white;">🔄 Sinxronlash</button>
+              </div>
+              <p id="gist-status" style="margin-top: 10px; font-size: 13px; color: var(--text-muted);"></p>
+            </div>
+            
             <h2 class="section-title">Sozlamalar</h2>
             <button class="danger-btn" id="reset-btn">
               🗑️ Ma'lumotlarni tozalash
@@ -124,6 +139,69 @@
           <div style="height:100px"></div>
         </div>
       `;
+
+      // Setup Gist UI logic
+      const tokenInput = container.querySelector('#gist-token');
+      const idInput = container.querySelector('#gist-id');
+      const statusText = container.querySelector('#gist-status');
+      
+      tokenInput.value = localStorage.getItem('turkce_gist_token') || '';
+      idInput.value = localStorage.getItem('turkce_gist_id') || '';
+
+      container.querySelector('#gist-save-btn').addEventListener('click', async () => {
+        const token = tokenInput.value.trim();
+        let gistId = idInput.value.trim();
+        
+        if (!token) {
+          statusText.textContent = "Token kiriting!";
+          return;
+        }
+        
+        localStorage.setItem('turkce_gist_token', token);
+        statusText.textContent = "Bog'lanmoqda...";
+        
+        try {
+          const db = await import('./js/db.js');
+          if (!gistId) {
+            gistId = await db.createGist(token);
+            idInput.value = gistId;
+            statusText.textContent = "Yangi Gist yaratildi! Endi sinxronlash mumkin.";
+          }
+          localStorage.setItem('turkce_gist_id', gistId);
+          statusText.textContent = "Saqlandi! Endi 'Sinxronlash'ni bosing.";
+        } catch (e) {
+          statusText.textContent = "Xatolik: " + e.message;
+        }
+      });
+
+      container.querySelector('#gist-sync-btn').addEventListener('click', async () => {
+        const token = localStorage.getItem('turkce_gist_token');
+        const gistId = localStorage.getItem('turkce_gist_id');
+        if (!token || !gistId) {
+          statusText.textContent = "Avval saqlang!";
+          return;
+        }
+        
+        statusText.textContent = "Sinxronlanmoqda...";
+        try {
+          const db = await import('./js/db.js');
+          
+          // Try to sync down first
+          const updated = await db.syncFromGist(token, gistId);
+          if (updated) {
+            statusText.textContent = "Bulutdan ma'lumot yuklandi (Sinxronlandi) ✅";
+            // reload profile data if needed
+            return;
+          }
+          
+          // If local was newer, sync up
+          await db.syncToGist(token, gistId);
+          statusText.textContent = "Bulutga ma'lumot yozildi (Sinxronlandi) ✅";
+          
+        } catch (e) {
+          statusText.textContent = "Xatolik: " + e.message;
+        }
+      });
 
       container.querySelector('#reset-btn').addEventListener('click', () => {
         if (confirm("Barcha progress o'chiriladi. Davom etasizmi?")) {
