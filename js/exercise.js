@@ -232,9 +232,12 @@ async function getBestTurkishVoice() {
   if (_trVoice) return _trVoice;
   const voices = await loadVoices();
 
-  // Priority list: prefer high-quality online voices, then local ones
+  // Priority list: prefer high-quality online voices, then local ones.
+  // Prefer Male if possible for clearer enunciation as requested.
   const priority = [
+    v => v.lang === 'tr-TR' && !v.localService && v.name.toLowerCase().includes('male'),
     v => v.lang === 'tr-TR' && !v.localService,  // Online/cloud TTS (best quality)
+    v => v.lang === 'tr-TR' && v.name.toLowerCase().includes('male'),
     v => v.lang === 'tr-TR',                      // Any Turkish
     v => v.lang.startsWith('tr'),                 // Turkish variant
   ];
@@ -258,8 +261,8 @@ export async function speak(text, lang = 'tr-TR') {
   const voice = await getBestTurkishVoice();
   if (voice) utter.voice = voice;
 
-  // Tuned for clear Turkish pronunciation
-  utter.rate   = 0.82;   // Slightly slower — easier to follow
+  // Tuned for clear, normal CEFR-speed Turkish pronunciation
+  utter.rate   = 0.95;   // Normal speed, clear
   utter.pitch  = 1.0;
   utter.volume = 1.0;
 
