@@ -33,7 +33,7 @@ export function render(hash, params = {}) {
 }
 
 // App initialization
-export function initApp() {
+export function initRouter() {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'light') {
     document.documentElement.classList.add('light-mode');
