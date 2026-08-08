@@ -132,6 +132,24 @@ export function saveItemProgress(level, unitId, itemNumber, progress) {
   saveVocabProgress(vp);
 }
 
+// ---- Batch Progress ----
+export function getCurrentBatch() {
+  const d = loadAll();
+  return d.currentBatch || null; // { unitId: string, items: Array }
+}
+
+export function saveCurrentBatch(batch) {
+  const d = loadAll();
+  d.currentBatch = batch;
+  saveAll(d);
+}
+
+export function clearCurrentBatch() {
+  const d = loadAll();
+  d.currentBatch = null;
+  saveAll(d);
+}
+
 // ---- Helpers ----
 
 export function getProgressSummary(vocab) {

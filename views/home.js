@@ -58,7 +58,7 @@ export function renderHome(container) {
           <div class="progress-fill" style="width:${totalPct}%; background: white;"></div>
         </div>
         <div style="font-size: 13px; opacity: 0.9;">
-          🎯 Kunlik maqsad: <strong>159 ta so'z</strong> yodlash. (O'rganish rejimi orqali bajariladi).
+          🎯 Kunlik maqsad: <strong>160 ta so'z</strong> yodlash. (O'rganish rejimi orqali bajariladi).
         </div>
       </div>
 

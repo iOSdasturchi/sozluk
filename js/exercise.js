@@ -5,7 +5,7 @@
 
 import { CONFIG } from './config.js';
 import { ALL_VOCAB } from '../data/vocab.js';
-import { getVocabProgress } from './db.js';
+import { getVocabProgress, getCurrentBatch, saveCurrentBatch } from './db.js';
 
 // --- Utility ---
 
@@ -166,22 +166,40 @@ export function buildExercise(item, preferredType = null) {
  * @param {number} count - number of exercises
  */
 export function buildLesson(vocabItems, mode = 'learn', count = 10) {
+  if (vocabItems.length === 0) return [];
+  const unitId = vocabItems[0].unitId;
+  const level = vocabItems[0].level;
+  
   let items = [];
-
-  if (mode === 'learn') {
-    // Prioritize unseen or low-level words
+  
+  // Strict Batch Logic
+  const currentBatch = getCurrentBatch();
+  
+  if (currentBatch && currentBatch.unitId === unitId && currentBatch.items && currentBatch.items.length > 0) {
+    // Re-hydrate the full objects since DB might only store keys or partial objects, but let's assume we just store the raw array for simplicity,
+    // or better, map them back to full items if they were saved cleanly.
+    // To be safe, let's map by itemNumber if they match.
+    const batchNumbers = currentBatch.items.map(i => i.itemNumber);
+    items = vocabItems.filter(v => batchNumbers.includes(v.itemNumber));
+  } else {
+    // Generate a NEW batch of 10 unseen/learning words
     const vp = getVocabProgress();
     const sorted = [...vocabItems].sort((a, b) => {
-      const pA = vp[`${a.unitId}-${a.itemNumber}`];
-      const pB = vp[`${b.unitId}-${b.itemNumber}`];
-      const sA = pA ? (pA.status === 'learning' ? 1 : pA.status === 'familiar' ? 2 : pA.status === 'strong' ? 3 : 4) : 0;
-      const sB = pB ? (pB.status === 'learning' ? 1 : pB.status === 'familiar' ? 2 : pB.status === 'strong' ? 3 : 4) : 0;
-      return sA - sB;
+      const pA = vp[`${a.level}-${a.unitId}-${a.itemNumber}`];
+      const pB = vp[`${b.level}-${b.unitId}-${b.itemNumber}`];
+      // Sort by mastery (0 first), then status
+      const scoreA = pA ? (pA.status === 'mastered' ? 10 : (pA.mastery || 0)) : 0;
+      const scoreB = pB ? (pB.status === 'mastered' ? 10 : (pB.mastery || 0)) : 0;
+      if (scoreA !== scoreB) return scoreA - scoreB;
+      return a.itemNumber - b.itemNumber; // keep sequential order for new words
     });
-    // Pick the top 'count' items that need most attention, then shuffle
-    items = shuffle(sorted.slice(0, count));
-  } else {
-    items = shuffle(vocabItems).slice(0, Math.min(count, vocabItems.length * 3));
+    items = sorted.slice(0, count);
+    saveCurrentBatch({ unitId, items });
+  }
+
+  // Optionally shuffle for non-learn modes, but keep exactly these items
+  if (mode !== 'learn') {
+    items = shuffle(items);
   }
 
   let exercises = [];
@@ -203,9 +221,9 @@ export function buildLesson(vocabItems, mode = 'learn', count = 10) {
     items.forEach(item => exercises.push(buildExercise(item)));
   }
 
-  // Ensure we have enough exercises
-  while (exercises.length < count && vocabItems.length > 0) {
-    const extra = shuffle(vocabItems)[0];
+  // Ensure we have enough exercises if the batch is smaller than count, though it shouldn't happen often
+  while (exercises.length < count && items.length > 0) {
+    const extra = shuffle(items)[0];
     exercises.push(buildExercise(extra));
   }
 

@@ -4,8 +4,7 @@
 
 import { CONFIG } from '../js/config.js';
 import { buildLesson, speak } from '../js/exercise.js';
-import { recordAnswer } from '../js/srs.js';
-import { getStats, saveStats, getUnitProgress, saveUnitProgress } from '../js/db.js';
+import { getStats, saveStats, getUnitProgress, saveUnitProgress, getItemProgress, saveItemProgress, clearCurrentBatch } from '../js/db.js';
 import { navigate } from '../js/router.js';
 
 export function renderLesson(container, { unit, mode = 'learn', level }) {
@@ -212,8 +211,8 @@ export function renderLesson(container, { unit, mode = 'learn', level }) {
     const checkBtn = container.querySelector('#check-btn');
     const feedbackEl = container.querySelector('#answer-feedback');
 
-    // SRS update
-    recordAnswer(ex.item, correct);
+    // Strict Batch Logic: We do not update SRS item progress here anymore.
+    // Progress is only saved in finishLesson if Challenge is passed.
 
     if (correct) {
       xpEarned += CONFIG.xp.correctAnswer;
@@ -295,14 +294,33 @@ export function renderLesson(container, { unit, mode = 'learn', level }) {
     stats.dailyXP = (stats.dailyXP || 0) + xpEarned;
     saveStats(stats);
 
-    // Update unit progress
+    // Update unit progress and Batch mastery if challenge passed
     const unitProgress = getUnitProgress();
     const upKey = level ? `${level}-${unit.unitId}` : unit.unitId;
     const up = unitProgress[upKey] || { unlocked: true };
-    // No more artificial locking of lesson types or unit completion status.
-    // Unit completion is fully derived from vocab mastery in home.js.
     unitProgress[upKey] = up;
     saveUnitProgress(unitProgress);
+
+    let unitCompleted = false;
+    if (mode === 'challenge' && !outOfHearts) {
+      unitCompleted = true;
+      // Mark all batch items as mastered
+      const uniqueItems = new Map();
+      exercises.forEach(ex => uniqueItems.set(ex.item.itemNumber, ex.item));
+      
+      uniqueItems.forEach(item => {
+        const p = getItemProgress(item.level, item.unitId, item.itemNumber);
+        p.status = 'mastered';
+        p.mastery = 5;
+        p.correctCount = (p.correctCount || 0) + 1;
+        p.lastReviewedAt = Date.now();
+        // push to next review far in the future
+        p.nextReviewAt = Date.now() + 30 * 24 * 60 * 60 * 1000;
+        saveItemProgress(item.level, item.unitId, item.itemNumber, p);
+      });
+      // Clear current batch so the next 'O'rganish' picks a new batch
+      clearCurrentBatch();
+    }
 
     navigate('#result', {
       unit,
@@ -313,7 +331,7 @@ export function renderLesson(container, { unit, mode = 'learn', level }) {
       totalQuestions: exercises.length,
       heartsLeft: hearts,
       outOfHearts,
-      unitCompleted: mode === 'challenge' && !outOfHearts,
+      unitCompleted,
     });
   }
 
