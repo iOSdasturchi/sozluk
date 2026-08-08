@@ -1529,3 +1529,40 @@ img { max-width: 100%; }
 .text-center { text-align: center; }
 .mt-md { margin-top: var(--sp-md); }
 .mb-md { margin-bottom: var(--sp-md); }
+
+/* ============================================================
+   LIGHT MODE THEME
+   ============================================================ */
+:root.light-mode {
+  --bg:        #f8fafc;
+  --bg-card:   #ffffff;
+  --bg-card2:  #f1f5f9;
+  --bg-input:  #e2e8f0;
+
+  --text:      #0f172a;
+  --text-muted: #475569;
+  --text-dim:   #64748b;
+
+  --border:    #cbd5e1;
+  --border-light: #e2e8f0;
+  
+  --shadow-glow-blue: 0 4px 15px rgba(28, 176, 246, 0.3);
+  --shadow-glow-green: 0 4px 15px rgba(88, 204, 2, 0.3);
+  --shadow-glow-purple: 0 4px 15px rgba(168, 85, 247, 0.3);
+}
+
+:root.light-mode .bootcamp-widget {
+  color: #fff; /* Always white text on the gradient */
+}
+
+:root.light-mode .bottom-nav {
+  background: rgba(255, 255, 255, 0.95);
+  border-top: 1px solid var(--border);
+}
+
+:root.light-mode .nav-item {
+  color: var(--text-muted);
+}
+:root.light-mode .nav-item--active {
+  color: var(--primary);
+}

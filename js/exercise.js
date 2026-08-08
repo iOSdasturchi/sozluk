@@ -270,6 +270,18 @@ export async function speak(text, lang = 'tr-TR') {
   setTimeout(() => window.speechSynthesis.speak(utter), 50);
 }
 
+export function pauseSpeech() {
+  if (window.speechSynthesis) window.speechSynthesis.pause();
+}
+
+export function resumeSpeech() {
+  if (window.speechSynthesis) window.speechSynthesis.resume();
+}
+
+export function cancelSpeech() {
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+}
+
 // Pre-warm voice loading on first import
 if (window.speechSynthesis) {
   getBestTurkishVoice();

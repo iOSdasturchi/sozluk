@@ -32,7 +32,13 @@ export function render(hash, params = {}) {
   window.scrollTo(0, 0);
 }
 
-export function initRouter() {
+// App initialization
+export function initApp() {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'light') {
+    document.documentElement.classList.add('light-mode');
+  }
+
   window.addEventListener('hashchange', () => {
     if (window._skipHashChange) return;
     const hash = window.location.hash || '#home';

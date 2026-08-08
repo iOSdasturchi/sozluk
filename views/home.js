@@ -33,6 +33,9 @@ export function renderHome(container) {
           <span class="logo-text">TÜRKÇE</span>
         </div>
         <div class="home-badges">
+          <div class="badge theme-toggle-btn" id="theme-toggle" title="Mavzuni o'zgartirish" style="cursor: pointer;">
+            🌓
+          </div>
           <div class="badge streak-badge" title="Streak">
             🔥 <span>${stats.streak || 0}</span>
           </div>
@@ -111,6 +114,15 @@ export function renderHome(container) {
       }
     });
   });
+
+  // Theme toggle logic
+  const themeToggle = container.querySelector('#theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const isLight = document.documentElement.classList.toggle('light-mode');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
+  }
 }
 
 function renderLevelSection(lc, unitProgress) {

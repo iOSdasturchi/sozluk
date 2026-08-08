@@ -2,12 +2,12 @@
 // views/review.js — Daily review screen
 // ============================================================
 
-import { UNITS } from '../data/vocab.js';
+import { LEVELS_CONFIG } from '../data/vocab.js';
 import { getDueForReview, getProgressSummary } from '../js/db.js';
 import { navigate } from '../js/router.js';
 
 export function renderReview(container) {
-  const allVocab = UNITS.flatMap(u => u.vocab);
+  const allVocab = LEVELS_CONFIG.flatMap(lc => lc.vocab);
   const dueItems = getDueForReview(allVocab);
   const summary = getProgressSummary(allVocab);
   const totalLearned = summary.learning + summary.familiar + summary.strong + summary.mastered;
@@ -32,7 +32,10 @@ export function renderReview(container) {
             Boshlash →
           </button>
         ` : `
-          <p class="review-done-msg">Ajoyib! Keyingi takrorlash ertaga.</p>
+          <p class="review-done-msg" style="margin-bottom: 10px;">Ajoyib! Keyingi takrorlash ertaga.</p>
+          <button class="btn btn-primary" id="learn-new-btn" style="width: 100%; border-radius: var(--r-full); padding: 12px; font-weight: 800; background: linear-gradient(135deg, var(--teal), var(--primary)); border: none;">
+            Yangi so'zlarni o'rganish
+          </button>
         `}
       </div>
 
@@ -48,45 +51,42 @@ export function renderReview(container) {
         </div>
       </div>
 
-      <!-- Unit breakdown -->
-      <div class="review-units-section">
-        <h2 class="section-title">Birliklar bo'yicha</h2>
-        ${UNITS.map(unit => {
-          const unitSummary = getProgressSummary(unit.vocab);
-          const learned = unitSummary.learning + unitSummary.familiar + unitSummary.strong + unitSummary.mastered;
-          const pct = Math.round(learned / unitSummary.total * 100);
-          return `
-            <div class="review-unit-row">
-              <div class="review-unit-name">${unit.label}</div>
-              <div class="review-unit-bar">
-                <div class="progress-track flex-1">
-                  <div class="progress-fill" style="width:${pct}%"></div>
-                </div>
-                <span class="review-unit-pct">${pct}%</span>
-              </div>
-              <div class="review-unit-count">${learned}/${unitSummary.total}</div>
-            </div>
-          `;
-        }).join('')}
-      </div>
-
+      <!-- Status cards are rendered but static. In future updates they can trigger specific filtered sessions -->
       <div style="height:90px"></div>
     </div>
   `;
 
+  // Learn new words button
+  const learnNewBtn = container.querySelector('#learn-new-btn');
+  if (learnNewBtn) {
+    learnNewBtn.addEventListener('click', () => {
+      navigate('#home'); // Direct user to home to pick a unit
+    });
+  }
+
   const startBtn = container.querySelector('#start-review');
   if (startBtn) {
     startBtn.addEventListener('click', () => {
-      // Pick the unit with most due items
-      const unitCounts = UNITS.map(u => ({
-        unit: u,
-        count: dueItems.filter(d => d.unitId === u.unitId).length
-      })).filter(x => x.count > 0);
+      // Pick the unit ID with most due items
+      const unitCounts = [];
+      const unitGroups = {};
+      dueItems.forEach(d => {
+        unitGroups[d.unitId] = (unitGroups[d.unitId] || 0) + 1;
+      });
+      for (const [unitId, count] of Object.entries(unitGroups)) {
+        unitCounts.push({ unitId, count });
+      }
 
       if (unitCounts.length > 0) {
         unitCounts.sort((a, b) => b.count - a.count);
-        const bestUnit = unitCounts[0].unit;
-        navigate('#lesson', { unit: bestUnit, mode: 'practice' });
+        // Find the unit config
+        const bestUnitData = allVocab.find(v => v.unitId === unitCounts[0].unitId);
+        if (bestUnitData) {
+          navigate('#lesson', { 
+            unit: { unitId: bestUnitData.unitId, label: 'Takrorlash' }, 
+            mode: 'practice' 
+          });
+        }
       }
     });
   }
@@ -94,7 +94,7 @@ export function renderReview(container) {
 
 function renderStatusCard(icon, label, count, color) {
   return `
-    <div class="breakdown-card" style="border-top: 3px solid ${color}">
+    <div class="breakdown-card" style="border-top: 3px solid ${color}; cursor: pointer;" onclick="window.location.hash='#home'">
       <div class="breakdown-icon">${icon}</div>
       <div class="breakdown-count" style="color:${color}">${count}</div>
       <div class="breakdown-label">${label}</div>

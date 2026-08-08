@@ -4,7 +4,7 @@
 
 import { getStoryForUnit } from '../data/stories.js';
 import { navigate } from '../js/router.js';
-import { speak } from '../js/exercise.js';
+import { speak, pauseSpeech, resumeSpeech, cancelSpeech } from '../js/exercise.js';
 
 export function renderStory(container, { level, unitId, unit }) {
   const story = getStoryForUnit(level, unitId);
@@ -40,9 +40,9 @@ export function renderStory(container, { level, unitId, unit }) {
       </header>
 
       <div class="story-content" style="padding: var(--sp-lg);">
-        <div class="story-controls" style="margin-bottom: var(--sp-lg); text-align: center;">
-          <button class="btn btn-primary" id="story-play" style="width:100%; border-radius: var(--r-full); padding: 12px; font-weight: 800;">
-            <span class="icon">🔊</span> Hikoyani Tinglash
+        <div class="story-controls" style="margin-bottom: var(--sp-lg); text-align: center; display: flex; gap: 10px; justify-content: center;">
+          <button class="btn btn-primary" id="story-play" style="flex: 1; border-radius: var(--r-full); padding: 12px; font-weight: 800; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); box-shadow: var(--shadow-glow-blue);">
+            <span class="icon">▶️</span> <span class="btn-text">Tinglash</span>
           </button>
         </div>
         
@@ -59,13 +59,59 @@ export function renderStory(container, { level, unitId, unit }) {
 
   // Events
   container.querySelector('#story-back').addEventListener('click', () => {
-    if(window.speechSynthesis) window.speechSynthesis.cancel();
+    cancelSpeech();
     navigate('#unit', { unit, level });
   });
 
-  container.querySelector('#story-play').addEventListener('click', () => {
-    speak(plainTextForSpeech);
+  let playState = 'idle'; // idle | playing | paused
+  const playBtn = container.querySelector('#story-play');
+  const playIcon = playBtn.querySelector('.icon');
+  const playText = playBtn.querySelector('.btn-text');
+
+  playBtn.addEventListener('click', () => {
+    if (playState === 'idle') {
+      speak(plainTextForSpeech);
+      playState = 'playing';
+      playIcon.textContent = '⏸️';
+      playText.textContent = 'To\'xtatish';
+      playBtn.style.background = 'linear-gradient(135deg, var(--warning), var(--warning-dark))';
+      playBtn.style.boxShadow = '0 4px 15px rgba(255, 200, 0, 0.4)';
+    } else if (playState === 'playing') {
+      pauseSpeech();
+      playState = 'paused';
+      playIcon.textContent = '▶️';
+      playText.textContent = 'Davom etish';
+      playBtn.style.background = 'linear-gradient(135deg, var(--success), var(--success-dark))';
+      playBtn.style.boxShadow = '0 4px 15px rgba(88, 204, 2, 0.4)';
+    } else if (playState === 'paused') {
+      resumeSpeech();
+      playState = 'playing';
+      playIcon.textContent = '⏸️';
+      playText.textContent = 'To\'xtatish';
+      playBtn.style.background = 'linear-gradient(135deg, var(--warning), var(--warning-dark))';
+      playBtn.style.boxShadow = '0 4px 15px rgba(255, 200, 0, 0.4)';
+    }
   });
+
+  // Reset UI when speech ends naturally (using an interval since onend is buggy on some browsers)
+  const speechCheck = setInterval(() => {
+    if (playState !== 'idle' && window.speechSynthesis && !window.speechSynthesis.speaking) {
+      playState = 'idle';
+      playIcon.textContent = '▶️';
+      playText.textContent = 'Tinglash';
+      playBtn.style.background = 'linear-gradient(135deg, var(--primary), var(--primary-dark))';
+      playBtn.style.boxShadow = 'var(--shadow-glow-blue)';
+    }
+  }, 1000);
+  
+  // Clear interval on unmount
+  const observer = new MutationObserver(() => {
+    if (!document.contains(playBtn)) {
+      clearInterval(speechCheck);
+      observer.disconnect();
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
 
   // Clickable words
   const tooltip = container.querySelector('#story-tooltip');
