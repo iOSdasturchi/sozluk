@@ -264,10 +264,15 @@ export async function syncFromGist(token, gistId) {
   const remoteTime = remoteData.updatedAt || 0;
   const localTime = localData.updatedAt || 0;
   
-  // Only overwrite if remote is newer
-  if (remoteTime > localTime) {
+  const remoteXP = (remoteData.stats && remoteData.stats.totalXP) || 0;
+  const localXP = (localData.stats && localData.stats.totalXP) || 0;
+  
+  // Smart Sync: Never let an empty/lower-progress state overwrite a higher-progress state
+  // Overwrite local if remote has more XP, or (if XP is same) remote is newer.
+  if (remoteXP > localXP || (remoteXP === localXP && remoteTime > localTime)) {
     localStorage.setItem(DB_KEY, JSON.stringify(remoteData));
     return true; // updated
   }
-  return false; // local is newer or same
+  
+  return false; // local is newer or has more progress
 }
