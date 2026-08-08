@@ -43,20 +43,7 @@
     import { renderStory }  from './views/story.js';
     import { getStats, saveStats, getUnitProgress, saveUnitProgress } from './js/db.js';
 
-    // ---- Streak check on load ----
-    (function checkStreak() {
-      const stats = getStats();
-      const today = new Date().toDateString();
-      if (stats.lastStudyDate !== today) {
-        const yesterday = new Date(Date.now() - 86400000).toDateString();
-        if (stats.lastStudyDate !== yesterday && stats.lastStudyDate != null) {
-          stats.streak = 0;
-        }
-        stats.dailyXP = 0;
-        stats.dailyDate = today;
-        saveStats(stats);
-      }
-    })();
+    // Streak check is now handled in initRouter after auto-sync
 
     // ---- Profile view (inline) ----
     function renderProfile(container) {
@@ -186,11 +173,10 @@
         try {
           const db = await import('./js/db.js');
           
-          // Try to sync down first
           const updated = await db.syncFromGist(token, gistId);
           if (updated) {
             statusText.textContent = "Bulutdan ma'lumot yuklandi (Sinxronlandi) ✅";
-            // reload profile data if needed
+            setTimeout(() => window.location.reload(), 1000);
             return;
           }
           

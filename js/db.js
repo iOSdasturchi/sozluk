@@ -30,10 +30,37 @@ function loadAll() {
   return {};
 }
 
-function saveAll(data) {
+let syncTimeout = null;
+function saveAll(data, skipAutoSync = false) {
   try {
+    data.updatedAt = Date.now();
     localStorage.setItem(DB_KEY, JSON.stringify(data));
+    
+    if (!skipAutoSync) {
+      const token = localStorage.getItem('turkce_gist_token');
+      const gistId = localStorage.getItem('turkce_gist_id');
+      if (token && gistId) {
+        clearTimeout(syncTimeout);
+        syncTimeout = setTimeout(() => {
+          syncToGist(token, gistId).catch(console.error);
+        }, 3000);
+      }
+    }
   } catch (_) {}
+}
+
+export function checkStreak() {
+  const stats = getStats();
+  const today = new Date().toDateString();
+  if (stats.lastStudyDate !== today) {
+    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    if (stats.lastStudyDate !== yesterday && stats.lastStudyDate != null) {
+      stats.streak = 0;
+    }
+    stats.dailyXP = 0;
+    stats.dailyDate = today;
+    saveStats(stats);
+  }
 }
 
 // ---- User Stats ----
@@ -175,7 +202,7 @@ export async function syncToGist(token, gistId) {
   if (!token || !gistId) return;
   const data = loadAll();
   data.updatedAt = Date.now();
-  saveAll(data); // update local timestamp
+  saveAll(data, true); // skip auto sync to prevent infinite loop
 
   const res = await fetch(`https://api.github.com/gists/${gistId}`, {
     method: 'PATCH',

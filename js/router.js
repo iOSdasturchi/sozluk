@@ -45,14 +45,20 @@ export function initRouter() {
   if (token && gistId) {
     import('./db.js').then(db => {
       db.syncFromGist(token, gistId).then(updated => {
+        db.checkStreak();
         if (updated) {
           console.log("Auto-synced from Github Gist.");
           // Refresh current view if needed
           const hash = window.location.hash || '#home';
           render(hash, _params);
         }
-      }).catch(e => console.error("Auto-sync error:", e));
+      }).catch(e => {
+        console.error("Auto-sync error:", e);
+        db.checkStreak();
+      });
     });
+  } else {
+    import('./db.js').then(db => db.checkStreak());
   }
 
   window.addEventListener('hashchange', () => {
